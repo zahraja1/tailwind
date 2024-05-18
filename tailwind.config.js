@@ -1,6 +1,6 @@
 /** @type {import('tailwindcss').Config} */
 module.exports = {
-  content: ['tugas/index.html'],
+  content: ['index.html'],
   theme: {
     container: {
       center: true,
@@ -9,8 +9,8 @@ module.exports = {
     extend: {
       colors: {
         primary: '#a855f7',
-        dark: '#0f172a',
-        grey: '#4b5563',
+        secondary:'#cbd5e1',
+        dark:'#5b21b6'
       },
       screens: {
         '2xl': '1320px',

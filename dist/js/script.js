@@ -18,3 +18,4 @@ burger.addEventListener('click', function() {
   burger.classList.toggle('burger-active');
   navMenu.classList.toggle('hidden');
 });
+
